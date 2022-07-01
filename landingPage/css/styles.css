@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
+
+:root {
+    --hero: #F9FAF8;
+    --secondary: #E5E7EB;
+    --hover: #0095DA;
+    --info: #646464;
+    --dark: #1F2937;
+    --button: #3882F6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+.container {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+nav {
+    background-color: var(--dark);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.logo a {
+    color: var(--hero);
+    transition: linear all 1s;
+}
+
+.logo a:hover {
+    color: var(--hover);
+}
+
+.navbar ul {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    color: var(--hero);
+    padding: 5px;
+    transition: linear all .3s;
+}
+
+.navbar ul li a:last-child {
+    padding-right: 0;
+}
+
+.navbar ul li a:hover {
+    color: var(--hover);
+}
+
+.hero-section {
+    background-color: var(--dark);
+}
+
+.hero {
+    display: flex;
+    gap: 30px;
+    justify- justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--hero);
+    padding: 15px 0;
+    line-height: 1.2;
+}
+
+.hero-text p {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--secondary);
+    padding: 10px 0;
+}
+
+.btn-main {
+    background-color: var(--button);
+    color: var(--secondary);
+    margin-top: 20px;
+    transition: linear all .3s;
+}
+
+.btn-main:hover {
+    background-color: var(--secondary);
+    color: var(--button);
+}
+
+.hero-img {
+    border-radius: 10px;
+}
+
+.hero-img img{
+    border-radius: 10px;
+}
+
+.random-section {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.random-section h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--dark);
+    padding: 20px;
+}
+
+.random {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+
+.random .info {
+    max-width: 288px;
+    border-radius: 10px;
+}
+
+.info img {
+    border-radius: 10px;
+    transition: all linear .3s;
+}
+
+.info img:hover {
+    transform: scale(1.1);
+}
+
+.info p{
+    margin: 15px;
+    color: var(--info);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.quote-section {
+    background-color: var(--secondary);
+}
+
+.quote {
+    padding: 55px 0;
+}
+
+blockquote {
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote p{
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: var(--dark);
+    padding: 25px;
+}
+
+blockquote cite {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--dark);
+    justify-content: start;
+    text-align: end;
+}
+
+
+
+
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--button);
+    padding: 15px;
+    margin: 50px 0;
+    border-radius: 5px;
+}
+
+.call-to-action .cot-text {
+    max-width: 70%;
+    color: var(--hero);
+}
+
+.cot-text h4 {
+    font-size: 24px;
+}
+
+.cot-text p {
+    font-size: 18px;
+}
+
+
+
+.btn-inverse {
+    background-color: var(--button);
+    color: var(--secondary);
+    margin-top: 20px;
+    transition: linear all .3s;
+    border: 2px solid var(--secondary);
+}
+
+.btn-inverse:hover {
+    background-color: var(--secondary);
+    color: var(--button);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+footer {
+    background-color: var(--dark);
+    color: var(--secondary);
+}
+
+.footer a{
+    color: var(--button);
+    transition: linear all .3s;
+}
+
+.footer a:hover {
+    color: var(--hover);
+
+}
